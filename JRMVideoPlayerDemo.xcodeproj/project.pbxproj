@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82233EB81D6E46EA00DCD8D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82233EB71D6E46EA00DCD8D4 /* main.m */; };
+		82233EBB1D6E46EA00DCD8D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82233EBA1D6E46EA00DCD8D4 /* AppDelegate.m */; };
+		82233EC11D6E46EA00DCD8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82233EBF1D6E46EA00DCD8D4 /* Main.storyboard */; };
+		82233EC31D6E46EA00DCD8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82233EC21D6E46EA00DCD8D4 /* Assets.xcassets */; };
+		82233EC61D6E46EA00DCD8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82233EC41D6E46EA00DCD8D4 /* LaunchScreen.storyboard */; };
+		82233ECF1D6E482D00DCD8D4 /* JRMVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82233ECE1D6E482D00DCD8D4 /* JRMVideoPlayerViewController.m */; };
+		82233ED21D6E492900DCD8D4 /* JRMPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82233ED11D6E492900DCD8D4 /* JRMPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82233EB31D6E46EA00DCD8D4 /* JRMVideoPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRMVideoPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82233EB71D6E46EA00DCD8D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82233EB91D6E46EA00DCD8D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82233EBA1D6E46EA00DCD8D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82233EC01D6E46EA00DCD8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82233EC21D6E46EA00DCD8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82233EC51D6E46EA00DCD8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82233EC71D6E46EA00DCD8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82233ECD1D6E482D00DCD8D4 /* JRMVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMVideoPlayerViewController.h; sourceTree = "<group>"; };
+		82233ECE1D6E482D00DCD8D4 /* JRMVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMVideoPlayerViewController.m; sourceTree = "<group>"; };
+		82233ED01D6E492900DCD8D4 /* JRMPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMPlayerView.h; sourceTree = "<group>"; };
+		82233ED11D6E492900DCD8D4 /* JRMPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82233EB01D6E46EA00DCD8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82233EAA1D6E46EA00DCD8D4 = {
+			isa = PBXGroup;
+			children = (
+				82233EB51D6E46EA00DCD8D4 /* JRMVideoPlayerDemo */,
+				82233EB41D6E46EA00DCD8D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82233EB41D6E46EA00DCD8D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82233EB31D6E46EA00DCD8D4 /* JRMVideoPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82233EB51D6E46EA00DCD8D4 /* JRMVideoPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82233ED01D6E492900DCD8D4 /* JRMPlayerView.h */,
+				82233ED11D6E492900DCD8D4 /* JRMPlayerView.m */,
+				82233EB91D6E46EA00DCD8D4 /* AppDelegate.h */,
+				82233EBA1D6E46EA00DCD8D4 /* AppDelegate.m */,
+				82233EBF1D6E46EA00DCD8D4 /* Main.storyboard */,
+				82233EC21D6E46EA00DCD8D4 /* Assets.xcassets */,
+				82233EC41D6E46EA00DCD8D4 /* LaunchScreen.storyboard */,
+				82233EC71D6E46EA00DCD8D4 /* Info.plist */,
+				82233EB61D6E46EA00DCD8D4 /* Supporting Files */,
+				82233ECD1D6E482D00DCD8D4 /* JRMVideoPlayerViewController.h */,
+				82233ECE1D6E482D00DCD8D4 /* JRMVideoPlayerViewController.m */,
+			);
+			path = JRMVideoPlayerDemo;
+			sourceTree = "<group>";
+		};
+		82233EB61D6E46EA00DCD8D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82233EB71D6E46EA00DCD8D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82233EB21D6E46EA00DCD8D4 /* JRMVideoPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82233ECA1D6E46EA00DCD8D4 /* Build configuration list for PBXNativeTarget "JRMVideoPlayerDemo" */;
+			buildPhases = (
+				82233EAF1D6E46EA00DCD8D4 /* Sources */,
+				82233EB01D6E46EA00DCD8D4 /* Frameworks */,
+				82233EB11D6E46EA00DCD8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRMVideoPlayerDemo;
+			productName = JRMVideoPlayerDemo;
+			productReference = 82233EB31D6E46EA00DCD8D4 /* JRMVideoPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82233EAB1D6E46EA00DCD8D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Caroline Harrison";
+				TargetAttributes = {
+					82233EB21D6E46EA00DCD8D4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 82233EAE1D6E46EA00DCD8D4 /* Build configuration list for PBXProject "JRMVideoPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82233EAA1D6E46EA00DCD8D4;
+			productRefGroup = 82233EB41D6E46EA00DCD8D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82233EB21D6E46EA00DCD8D4 /* JRMVideoPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82233EB11D6E46EA00DCD8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82233EC61D6E46EA00DCD8D4 /* LaunchScreen.storyboard in Resources */,
+				82233EC31D6E46EA00DCD8D4 /* Assets.xcassets in Resources */,
+				82233EC11D6E46EA00DCD8D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82233EAF1D6E46EA00DCD8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82233ECF1D6E482D00DCD8D4 /* JRMVideoPlayerViewController.m in Sources */,
+				82233EBB1D6E46EA00DCD8D4 /* AppDelegate.m in Sources */,
+				82233EB81D6E46EA00DCD8D4 /* main.m in Sources */,
+				82233ED21D6E492900DCD8D4 /* JRMPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82233EBF1D6E46EA00DCD8D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82233EC01D6E46EA00DCD8D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82233EC41D6E46EA00DCD8D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82233EC51D6E46EA00DCD8D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82233EC81D6E46EA00DCD8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82233EC91D6E46EA00DCD8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82233ECB1D6E46EA00DCD8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JRMVideoPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrabbitmobile.JRMVideoPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82233ECC1D6E46EA00DCD8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JRMVideoPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackrabbitmobile.JRMVideoPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82233EAE1D6E46EA00DCD8D4 /* Build configuration list for PBXProject "JRMVideoPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82233EC81D6E46EA00DCD8D4 /* Debug */,
+				82233EC91D6E46EA00DCD8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82233ECA1D6E46EA00DCD8D4 /* Build configuration list for PBXNativeTarget "JRMVideoPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82233ECB1D6E46EA00DCD8D4 /* Debug */,
+				82233ECC1D6E46EA00DCD8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82233EAB1D6E46EA00DCD8D4 /* Project object */;
+}
